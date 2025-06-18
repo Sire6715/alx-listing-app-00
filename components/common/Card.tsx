@@ -9,7 +9,7 @@ const Card = ({ property }: { property: PropertyProps[] }) => {
     <div className="font-semibold w-full grid grid-cols-1 md:grid-cols-2 md: md:justify-between md:gap-7  xl:gap-y-15 xl:gap-x-12 lg:grid-cols-2 xl:grid-cols-4 gap-y-7 py-4 ">
       {property.map((prop, index) => (
         <div
-          className="  py-4 flex flex-col justify-between align-baseline w-full bg-white  md:w-full"
+          className="py-4 flex flex-col justify-between align-baseline w-full bg-white md:w-full"
           key={index}
         >
           <Image

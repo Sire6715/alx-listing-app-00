@@ -1,3 +1,4 @@
+
 export interface CardProps {
     id: string;
     name: string;
@@ -9,14 +10,18 @@ export interface CardProps {
 
 export interface buttonProps {
     text: string; 
-    onClick: () => void;
-    disabled?: boolean;
+    onClick?: () => void;
+    style: string;
 }
 
 export interface PillProps {
-    pillText: string[];
-    style?: string;
+  pillText: string[];
+  style?: string;
+filterProperties: (category: string) => void;
+setItems: (items: PropertyProps[]) => void;
+activeCategories: string[];
 }
+
 
 export interface PropertyProps{
     name: string;

@@ -38,6 +38,20 @@ body {
 
 .pill_style {
   border: 1.09px solid #E9E9E9;
+  
+}
+
+.pill_style:hover{
+  border: 1.09px solid #34967C
+}
+
+
+.pill_active{
+  border: 1.09px solid #34967C
+}
+
+.pill_active:active{
+  border: 1.09px solid #34967C
 }
 
 
