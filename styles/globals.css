@@ -50,6 +50,13 @@ body {
   border: 1.09px solid #34967C
 }
 
+.discount {
+  border-radius: 3.40282e38px 3.40282e38px 3.40282e38px 0px;
+  top: 37px;
+  left: -5px;
+}
+
+
 .pill_active:active{
   border: 1.09px solid #34967C
 }

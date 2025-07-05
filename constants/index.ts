@@ -11,7 +11,8 @@ export const icons = {
   bathtub: "/assets/icons/bathtub_1.svg",
   people: "/assets/icons/people_1.svg",
   star: "/assets/icons/star2.svg",
-  arrowDown: "/assets/Icons/Linear/Arrows/Alt_Arrow_Down.svg"
+  arrowDown: "/assets/Icons/Linear/Arrows/Alt_Arrow_Down.svg",
+  discount: "/assets/Icons/Subtract.svg"
 };
 
 export const IMAGE_PATHS = {
